@@ -23,5 +23,5 @@ jobs:
         uses: 3stacks/cloudflare-purge-cache-action@1.0.6
         with:
           authToken: ${{ secrets.CLOUDFLARE_AUTH_TOKEN }}
-          siteName: somesite.com
-          authEmail: me@example.com
+          siteName: components.dryg.net
+          authEmail: cloudflare@dryg.net
